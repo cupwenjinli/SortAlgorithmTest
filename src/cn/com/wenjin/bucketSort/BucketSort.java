@@ -40,7 +40,7 @@ public class BucketSort {
     public void printASC(){
         for(int i=0;i<bucket.length;i++){
             //bucket的值为几，就输出几遍
-            for (int j=0;i<bucket[i];j++){
+            for (int j=0;j<bucket[i];j++){
                 System.out.print(i);
             }
         }
