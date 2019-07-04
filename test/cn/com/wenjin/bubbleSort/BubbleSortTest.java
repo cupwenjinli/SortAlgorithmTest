@@ -1,8 +1,6 @@
-package cn.com.cupwenjin.bubbleSort;
+package cn.com.wenjin.bubbleSort;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class BubbleSortTest {
    @Test

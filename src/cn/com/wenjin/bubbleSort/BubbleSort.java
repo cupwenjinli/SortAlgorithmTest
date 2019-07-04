@@ -1,4 +1,4 @@
-package cn.com.cupwenjin.bubbleSort;
+package cn.com.wenjin.bubbleSort;
 
 import java.sql.SQLOutput;
 
