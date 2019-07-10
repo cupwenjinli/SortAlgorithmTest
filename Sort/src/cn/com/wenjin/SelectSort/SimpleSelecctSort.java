@@ -6,10 +6,10 @@ package cn.com.wenjin.SelectSort;
  * @author:wenjin
  * @create:2019-07-06
  **/
-public class SelecctSort {
+public class SimpleSelecctSort {
     private int[] array;
 
-    public SelecctSort(int[] array) {
+    public SimpleSelecctSort(int[] array) {
         this.array = array;
     }
 
