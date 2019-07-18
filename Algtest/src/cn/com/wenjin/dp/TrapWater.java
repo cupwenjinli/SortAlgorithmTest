@@ -40,7 +40,6 @@ public class TrapWater {
         }
         return tripWater;
 
-
     }
 
 }
