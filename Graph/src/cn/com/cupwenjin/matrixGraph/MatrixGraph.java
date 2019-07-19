@@ -130,14 +130,14 @@ public class MatrixGraph {
 
             if(visited[i]==false){
                 visited[i] =true;
-                System.out.print(mapping[i]+",");
+                System.out.println("目前已经经过点"+mapping[i]);
                 queue.add(i);
                 while (!queue.isEmpty()){
                     queue.poll();
                     for(int j=0;j<vexnum;j++){
                         if(matrix[i][j]==1 && visited[j] ==false){
                             visited[j]=true;
-                            System.out.print(mapping[j]+",");
+                            System.out.println("目前已经经过点"+mapping[j]);
                             queue.add(j);
                         }
                     }
